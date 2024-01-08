@@ -1,0 +1,19 @@
+# BeamAnalyzer
+Labview based Utility to characterize a laser beam transverse profile
+
+__author__     = "vsanni"
+__email__      = "25177612+vsanni@users.noreply.github.com"
+
+__name__       = "BeamAnalyzer"
+__version__    = "1.4.2" #@Version@ please, do not edit this line
+__status__     = "alpha" #@Status@ please, do not edit this line
+__date__       = "01/08/2024" #@Date@ please, do not edit this line
+
+
+TODO
+* Decimate data for fitting
+* optional: Update plots when units are changed and fitting is not running
+* Add initial procedure to select camera with check parameters that cannot be retrieved automatically
+* Add a Run buttton
+* Separate data fitting and saving from live feeds by using a software interrupt o a mechanism different from the software timeout of the event loop 
+
